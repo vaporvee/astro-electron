@@ -1,6 +1,6 @@
 {
   "main": "public/electron.js",
-  "name": "@example/basics",
+  "name": "astro-electron-test",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,7 +12,8 @@
     "electron": "wait-on tcp:3000 && electron ."
   },
   "dependencies": {
-    "astro": "^1.1.5"
+    "astro": "^1.1.5",
+    "electron-builder": "^23.5.0"
   },
   "devDependencies": {
     "concurrently": "^7.3.0",
