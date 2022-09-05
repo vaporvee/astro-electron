@@ -6,6 +6,7 @@ const isDev = require('electron-is-dev');
 function createWindow() {
   // Create the browser window.
   const win = new BrowserWindow({
+    backgroundColor: "#050505",
     width: 400,
     height: 600,
     webPreferences: {
@@ -13,7 +14,6 @@ function createWindow() {
     },
     resizable: false
   });
-
   win.removeMenu();
 
   // and load the index.html of the app.
