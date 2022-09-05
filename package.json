@@ -12,7 +12,9 @@
     "electron": "wait-on tcp:3000 && electron ."
   },
   "dependencies": {
+    "@astrojs/turbolinks": "^0.1.4",
     "astro": "^1.1.5",
+    "astro-icon": "^0.7.3",
     "electron-builder": "^23.5.0"
   },
   "devDependencies": {

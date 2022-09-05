@@ -1,0 +1,26 @@
+---
+import { Icon } from 'astro-icon';
+const { Page } = Astro.props;
+const { Menuicon } = Astro.props;
+---
+<style>
+    .menubutton{
+    background-color: #1B9AAA;
+    position: absolute;
+    padding: 5px;
+    padding-inline: 7px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #126772;
+    right: 5px;
+    bottom: 5px;
+}
+.menubutton:hover{
+    background-color: #126772;
+    cursor: pointer;
+}
+.menubutton:active{
+    transform:translateY(2px);
+}
+</style>
+<a href={Page}><button class="menubutton"><Icon style="width:20px;" name={Menuicon} /></button></a>
