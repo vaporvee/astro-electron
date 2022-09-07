@@ -1,7 +1,12 @@
 :root{
     color-scheme: dark;
     background-color: #050505;
+    font-family: "Lambda";
 }
+@font-face {
+    font-family: "Lambda";
+    src: url(/Lambda.ttf);
+  }
 .turbolinks-progress-bar {
     background-color: transparent;
 }
